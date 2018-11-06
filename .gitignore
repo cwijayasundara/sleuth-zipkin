@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+eureka/eureka.iml
+/eureka/target
+/feign-client-app/target
+/feign-client-app/feign-client-app.iml
+feign-server/target
+feign-server/feign-server.iml
+zipkin-server/target
+zipkin-server/zipkin-server.iml
+main-wrapper
+
