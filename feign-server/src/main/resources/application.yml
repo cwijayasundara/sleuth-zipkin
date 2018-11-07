@@ -7,6 +7,18 @@ spring:
   #sleuth:
   #  sampler:
   #    percentage: 1.0
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+      bindings:
+        trade-out:
+          destination: spring-cloud-stream-twitter
+          contentType: application/json
+        trade-in:
+          destination: spring-cloud-stream-twitter
+          contentType: application/json
 
 eureka:
   instance:
