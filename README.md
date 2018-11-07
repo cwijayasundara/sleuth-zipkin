@@ -24,9 +24,11 @@ In application.yml
 spring:
   application:
     name: tradeservice
+  sleuth:
+    sampler:
+      percentage: 1.0
   zipkin:
-    base-url: http://zipkin/
-    
+    base-url: http://zipkin/    
     
 Zipkin server
 
